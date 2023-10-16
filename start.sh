@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/NEGANTG/cvilla-jan23.git /TigerShroffv3
+  git clone https://Abhishek-issac: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@github.com/Abhishek-issac/TigerShroffv4.git /TigerShroffv3
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /TigerShroffv3
