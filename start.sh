@@ -4,9 +4,9 @@ then
   git clone https://Abhishek-issac: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@github.com/Abhishek-issac/TigerShroffv4.git /TigerShroffv4
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /TigerShroffv4
+  git clone $UPSTREAM_REPO /app
 fi
-cd /TigerShroffv4
+cd /app
 pip3 install -U -r requirements.txt
 echo "Starting Bot...."
 python3 bot.py
